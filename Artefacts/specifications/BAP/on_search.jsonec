@@ -85,6 +85,19 @@
                                 {
                                     "display": true,
                                     "descriptor": {
+                                        "name": "Price",
+                                        "code": "price"
+                                    },
+                                    "list": [
+                                        {
+                                            "display": true,
+                                            "value": "₹15-20/kWh"
+                                        }
+                                    ],
+                                },
+                                {
+                                    "display": true,
+                                    "descriptor": {
                                         "name": "Available Charging Options",
                                         "code": "available-charging-options"
                                     },
@@ -139,6 +152,19 @@
                                 ]
                             },
                             "tags": [
+                                {
+                                    "display": true,
+                                    "descriptor": {
+                                        "name": "Power Rating",
+                                        "code": "power-rating"
+                                    },
+                                    "list": [
+                                        {
+                                            "display": true,
+                                            "value": "15kW"
+                                        }
+                                    ],
+                                },
                                 {
                                     "display": true,
                                     "descriptor": {
