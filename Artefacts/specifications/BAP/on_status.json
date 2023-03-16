@@ -103,8 +103,8 @@
                                     "display": true,
                                     "value": "30",
                                     "descriptor": {
-                                        "name": "Period",
-                                        "code": "period"
+                                        "name": "Time",
+                                        "code": "time"
                                     }
                                 }
                             ]
