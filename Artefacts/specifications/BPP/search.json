@@ -39,7 +39,7 @@
                                 "name": "Coordinates",
                                 "code": "coordinates"
                             }
-                        },
+                        }
                     ]
                 },
                 {
@@ -87,6 +87,6 @@
                     ]
                 }
             ]
-        }       
+        }
     }
 }

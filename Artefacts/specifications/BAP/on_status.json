@@ -41,7 +41,7 @@
             "items": [
                 {
                     "id": "id of the Charging Station",
-                    "categories": ["charging-station"],
+                    "category_ids": ["charging-station"],
                     "descriptor": {
                         "name": "Name of the CS",
                         "images": [
@@ -57,7 +57,7 @@
                 {
                     "id": "id of the Charge Point",
                     "parent_item_id": "id of the Charging Station (Location) this CP belongs to",
-                    "categories": ["charge-point"],
+                    "category_ids": ["charge-point"],
                     "descriptor": {
                         "name": "Name of the Charge Point",
                         "code": "Human readable unique code of the Charge Point",
@@ -114,7 +114,7 @@
                 {
                     "id": "id of the Charge Point Connector",
                     "parent_item_id": "id of the Charge Point this CPC belongs to",
-                    "categories": ["connector"],
+                    "category_ids": ["connector"],
                     "descriptor": {
                         "name": "Type 2",
                         "code": "Type2",
