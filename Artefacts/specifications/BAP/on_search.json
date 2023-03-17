@@ -41,14 +41,6 @@
                     "locations": [
                         {
                             "id": "id of the Charging Station",
-                            "descriptor": {
-                                "name": "Name of the CS as given by the CPO",
-                                "images": [
-                                    {
-                                        "url": "image 1 of CS"
-                                    }
-                                ]
-                            },
                             "map_url": "Google Maps url of the location of CS",
                             "gps": "GPS Coords of the CS",
                             "address": "Address of the CS",
@@ -68,6 +60,41 @@
                         }
                     ],
                     "items": [
+                        {
+                            "id": "id of the Charging Station",
+                            "categories": ["charging-station"],
+                            "location_ids": ["id of the CS"],
+                            "descriptor": {
+                                "name": "Name of the CS",
+                                "images": [
+                                    {
+                                        "url": "image 1 of CS"
+                                    },
+                                    {
+                                        "url": "image 2 of CS"
+                                    }
+                                ]
+                            },
+							"tags": [
+                                {
+                                    "display": true,
+                                    "descriptor": {
+                                        "name": "Attributes",
+                                        "code": "attributes"
+                                    },
+									"list": [
+										{
+                                            "display": true,
+                                            "value": "30kms",
+                                            "descriptor": {
+                                                "name": "Distance",
+                                                "code": "distance"
+                                            }
+                                        },
+									],
+								}
+							]
+                        },
                         {
                             "id": "id of the Charge Point",
                             "parent_item_id": "id of the Charging Station (Location) this CP belongs to",
