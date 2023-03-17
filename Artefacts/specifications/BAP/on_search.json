@@ -75,15 +75,15 @@
                                     }
                                 ]
                             },
-							"tags": [
+			    "tags": [
                                 {
                                     "display": true,
                                     "descriptor": {
                                         "name": "Attributes",
                                         "code": "attributes"
                                     },
-									"list": [
-										{
+				    "list": [
+				        {
                                             "display": true,
                                             "value": "30kms",
                                             "descriptor": {
@@ -91,9 +91,9 @@
                                                 "code": "distance"
                                             }
                                         },
-									],
-								}
-							]
+				     ],
+				 }
+			     ]
                         },
                         {
                             "id": "id of the Charge Point",
