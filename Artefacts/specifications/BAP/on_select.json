@@ -57,10 +57,10 @@
                                 "name": "Attributes",
                                 "code": "attributes"
                             },
-							"list": [
+			    "list": [
                                 {
                                     "display": true,
-                                    "value": "30",
+                                    "value": "30kms",
                                     "descriptor": {
                                         "name": "Distance",
                                         "code": "distance"
