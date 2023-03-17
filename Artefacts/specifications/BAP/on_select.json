@@ -49,7 +49,26 @@
                                 "url": "image 2 of CS"
                             }
                         ]
-                    }
+                    },
+                    "tags": [
+                        {
+                            "display": true,
+                            "descriptor": {
+                                "name": "Attributes",
+                                "code": "attributes"
+                            },
+							"list": [
+                                {
+                                    "display": true,
+                                    "value": "30",
+                                    "descriptor": {
+                                        "name": "Distance",
+                                        "code": "distance"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     "id": "id of the Charge Point",
