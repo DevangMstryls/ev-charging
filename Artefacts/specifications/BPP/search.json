@@ -27,25 +27,19 @@
             },
             "tags": [
                 {
+                    "display": false,
                     "descriptor": {
-                        "name": "User Coordinates",
-                        "code": "user-coords"
+                        "name": "User Info",
+                        "code": "user-info"
                     },
                     "list": [
                         {
+                            "value": "19.2483,39.348944",
                             "descriptor": {
-                                "name": "Latitude",
-                                "code": "lat"
-                            },
-                            "value": "12.39494"
+                                "name": "Coordinates",
+                                "code": "coordinates"
+                            }
                         },
-                        {
-                            "descriptor": {
-                                "name": "Longitude",
-                                "code": "lng"
-                            },
-                            "value": "19.399933"
-                        }
                     ]
                 },
                 {
