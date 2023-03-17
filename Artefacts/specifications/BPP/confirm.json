@@ -64,6 +64,60 @@
                             }
                         }
                     ]
+                },
+                {
+                    "display": true,
+                    "descriptor": {
+                        "name": "Selected Payment Method",
+                        "code": "selected-payment-method"
+                    },
+                    "list": [
+                        {
+                            "display": true,
+                            "value": "Paytm PG",
+                            "descriptor": {
+                                "name": "Method",
+                                "code": "method"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "display": false,
+                    "descriptor": {
+                        "name": "User Info",
+                        "code": "user-info"
+                    },
+                    "list": [
+                        {
+                            "value": "19.2483,39.348944",
+                            "descriptor": {
+                                "name": "Coordinates",
+                                "code": "coordinates"
+                            }
+                        },
+                        {
+                            "value": "jbcJKB269vdsjkhbeji",
+                            "descriptor": {
+                                "name": "User Id",
+                                "code": "user-id"
+                            }
+                        },
+                        {
+                            "value": "+91987654321",
+                            "descriptor": {
+                                "name": "Phone",
+                                "code": "phone"
+                            }
+                        },
+                        {
+                            "value": "hey@gmail.com",
+                            "descriptor": {
+                                "name": "Email",
+                                "code": "email"
+                            }
+                        }
+                    ]
                 }
             ]
         }
